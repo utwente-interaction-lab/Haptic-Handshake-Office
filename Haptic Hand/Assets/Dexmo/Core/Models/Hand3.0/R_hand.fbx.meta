@@ -1,0 +1,148 @@
+fileFormatVersion: 2
+guid: 41694583b7ee8d5459bc8e870a3856ab
+timeCreated: 1554280251
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: _index_dip
+    100002: _index_end
+    100004: _index_mcp
+    100006: _index_pip
+    100008: _middle_dip
+    100010: _middle_end
+    100012: _middle_mcp
+    100014: _middle_pip
+    100016: _pinky_dip
+    100018: _pinky_end
+    100020: _pinky_mcp
+    100022: _pinky_pip
+    100024: _ring_dip
+    100026: _ring_end
+    100028: _ring_mcp
+    100030: _ring_pip
+    100032: _thumb_dip
+    100034: _thumb_end
+    100036: _thumb_mcp
+    100038: _thumb_pip
+    100040: polySurface4
+    100042: polySurface6
+    100044: //RootNode
+    100046: R_hand
+    100048: R_Palm1
+    100050: R_Weist
+    400000: _index_dip
+    400002: _index_end
+    400004: _index_mcp
+    400006: _index_pip
+    400008: _middle_dip
+    400010: _middle_end
+    400012: _middle_mcp
+    400014: _middle_pip
+    400016: _pinky_dip
+    400018: _pinky_end
+    400020: _pinky_mcp
+    400022: _pinky_pip
+    400024: _ring_dip
+    400026: _ring_end
+    400028: _ring_mcp
+    400030: _ring_pip
+    400032: _thumb_dip
+    400034: _thumb_end
+    400036: _thumb_mcp
+    400038: _thumb_pip
+    400040: polySurface4
+    400042: polySurface6
+    400044: //RootNode
+    400046: R_hand
+    400048: R_Palm1
+    400050: R_Weist
+    2100000: lambert7
+    2100002: lambert2
+    4300000: R_hand
+    4300002: polySurface6
+    4300004: polySurface4
+    9500000: //RootNode
+    13700000: polySurface4
+    13700002: polySurface6
+    13700004: R_hand
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

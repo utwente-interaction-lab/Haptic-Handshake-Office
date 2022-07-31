@@ -1,0 +1,579 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1374925755915974}
+  m_IsPrefabParent: 1
+--- !u!1 &1177455370344288
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4199325241962194}
+  m_Layer: 0
+  m_Name: KnobController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1206403752036668
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4346225577734116}
+  - component: {fileID: 33909797588875292}
+  - component: {fileID: 23000269867538952}
+  m_Layer: 9
+  m_Name: Cube
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1210715092389972
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4664102045183578}
+  - component: {fileID: 33272212402213774}
+  - component: {fileID: 23393372325677706}
+  - component: {fileID: 135415308411166678}
+  - component: {fileID: 114097564560889006}
+  - component: {fileID: 114235857092452294}
+  m_Layer: 9
+  m_Name: KnobMesh
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1270067330502606
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4021868963491148}
+  m_Layer: 0
+  m_Name: RotateReference
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1374925755915974
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4746658304943762}
+  - component: {fileID: 114328715074664648}
+  m_Layer: 0
+  m_Name: Knob
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1557544068568948
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4436427400947964}
+  m_Layer: 0
+  m_Name: ConstarinReference
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4021868963491148
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1270067330502606}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4746658304943762}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4199325241962194
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1177455370344288}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4664102045183578}
+  m_Father: {fileID: 4746658304943762}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4346225577734116
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1206403752036668}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.8, y: 1, z: 0.8}
+  m_Children: []
+  m_Father: {fileID: 4664102045183578}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4436427400947964
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1557544068568948}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.0762, z: -0.0116}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4746658304943762}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4664102045183578
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1210715092389972}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.1, y: 0.035, z: 0.1}
+  m_Children:
+  - {fileID: 4346225577734116}
+  m_Father: {fileID: 4199325241962194}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4746658304943762
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1374925755915974}
+  m_LocalRotation: {x: 0, y: 0, z: -0.00000035762767, w: 1}
+  m_LocalPosition: {x: -0.133, y: 0.961, z: 1.2354}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4021868963491148}
+  - {fileID: 4436427400947964}
+  - {fileID: 4199325241962194}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &23000269867538952
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1206403752036668}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!23 &23393372325677706
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1210715092389972}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &33272212402213774
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1210715092389972}
+  m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!33 &33909797588875292
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1206403752036668}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &114097564560889006
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1210715092389972}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1aaf438183667c14ea256efe7fed26e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stiffness: 1
+  constraintOnTouching: 1
+  limitAngleOnTouching: 45
+  onTouchEnter:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: Dexmo.Unity.Interaction.TouchUnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  onTouchStay:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: Dexmo.Unity.Interaction.TouchUnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  onTouchExit:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: Dexmo.Unity.Interaction.TouchUnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &114235857092452294
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1210715092389972}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c547615a5b2857f48a3a6482a79b9a32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PreviewPostureDataInScene: 0
+  handModel_L: {fileID: 0}
+  handModel_R: {fileID: 0}
+  _LeftHandConstrainData:
+    locationData:
+      reference: {fileID: 0}
+      invalidDistance: 0
+      postionSettings:
+        enableConstrain: 0
+        ignoredAxial:
+          X: 0
+          Y: 0
+          Z: 0
+      rotationSettings:
+        enableConstrain: 0
+        ignoredAxial:
+          X: 0
+          Y: 0
+          Z: 0
+    postrueData:
+      thumb:
+        splitConstraintValue:
+          _EnableConstrain: 0
+          ValueMin: 0
+          ValueMax: 1
+        bendConstraintValues:
+          MCP:
+            _EnableConstrain: 0
+            ValueMin: 0
+            ValueMax: 1
+          PIP:
+            _EnableConstrain: 0
+            ValueMin: 0
+            ValueMax: 1
+          DIP:
+            _EnableConstrain: 0
+            ValueMin: 0
+            ValueMax: 1
+      index:
+        splitConstraintValue:
+          _EnableConstrain: 0
+          ValueMin: 0
+          ValueMax: 1
+        bendConstraintValues:
+          MCP:
+            _EnableConstrain: 0
+            ValueMin: 0
+            ValueMax: 1
+          PIP:
+            _EnableConstrain: 0
+            ValueMin: 0
+            ValueMax: 1
+          DIP:
+            _EnableConstrain: 0
+            ValueMin: 0
+            ValueMax: 1
+      middle:
+        splitConstraintValue:
+          _EnableConstrain: 0
+          ValueMin: 0
+          ValueMax: 1
+        bendConstraintValues:
+          MCP:
+            _EnableConstrain: 0
+            ValueMin: 0
+            ValueMax: 1
+          PIP:
+            _EnableConstrain: 0
+            ValueMin: 0
+            ValueMax: 1
+          DIP:
+            _EnableConstrain: 0
+            ValueMin: 0
+            ValueMax: 1
+      ring:
+        splitConstraintValue:
+          _EnableConstrain: 0
+          ValueMin: 0
+          ValueMax: 1
+        bendConstraintValues:
+          MCP:
+            _EnableConstrain: 0
+            ValueMin: 0
+            ValueMax: 1
+          PIP:
+            _EnableConstrain: 0
+            ValueMin: 0
+            ValueMax: 1
+          DIP:
+            _EnableConstrain: 0
+            ValueMin: 0
+            ValueMax: 1
+      pinky:
+        splitConstraintValue:
+          _EnableConstrain: 0
+          ValueMin: 0
+          ValueMax: 1
+        bendConstraintValues:
+          MCP:
+            _EnableConstrain: 0
+            ValueMin: 0
+            ValueMax: 1
+          PIP:
+            _EnableConstrain: 0
+            ValueMin: 0
+            ValueMax: 1
+          DIP:
+            _EnableConstrain: 0
+            ValueMin: 0
+            ValueMax: 1
+  _RightHandConstrainData:
+    locationData:
+      reference: {fileID: 0}
+      invalidDistance: 0
+      postionSettings:
+        enableConstrain: 0
+        ignoredAxial:
+          X: 0
+          Y: 0
+          Z: 0
+      rotationSettings:
+        enableConstrain: 0
+        ignoredAxial:
+          X: 0
+          Y: 0
+          Z: 0
+    postrueData:
+      thumb:
+        splitConstraintValue:
+          _EnableConstrain: 0
+          ValueMin: 0
+          ValueMax: 1
+        bendConstraintValues:
+          MCP:
+            _EnableConstrain: 0
+            ValueMin: 0
+            ValueMax: 1
+          PIP:
+            _EnableConstrain: 0
+            ValueMin: 0
+            ValueMax: 1
+          DIP:
+            _EnableConstrain: 0
+            ValueMin: 0
+            ValueMax: 1
+      index:
+        splitConstraintValue:
+          _EnableConstrain: 0
+          ValueMin: 0
+          ValueMax: 1
+        bendConstraintValues:
+          MCP:
+            _EnableConstrain: 0
+            ValueMin: 0
+            ValueMax: 1
+          PIP:
+            _EnableConstrain: 0
+            ValueMin: 0
+            ValueMax: 1
+          DIP:
+            _EnableConstrain: 0
+            ValueMin: 0
+            ValueMax: 1
+      middle:
+        splitConstraintValue:
+          _EnableConstrain: 0
+          ValueMin: 0
+          ValueMax: 1
+        bendConstraintValues:
+          MCP:
+            _EnableConstrain: 0
+            ValueMin: 0
+            ValueMax: 1
+          PIP:
+            _EnableConstrain: 0
+            ValueMin: 0
+            ValueMax: 1
+          DIP:
+            _EnableConstrain: 0
+            ValueMin: 0
+            ValueMax: 1
+      ring:
+        splitConstraintValue:
+          _EnableConstrain: 0
+          ValueMin: 0
+          ValueMax: 1
+        bendConstraintValues:
+          MCP:
+            _EnableConstrain: 0
+            ValueMin: 0
+            ValueMax: 1
+          PIP:
+            _EnableConstrain: 0
+            ValueMin: 0
+            ValueMax: 1
+          DIP:
+            _EnableConstrain: 0
+            ValueMin: 0
+            ValueMax: 1
+      pinky:
+        splitConstraintValue:
+          _EnableConstrain: 0
+          ValueMin: 0
+          ValueMax: 1
+        bendConstraintValues:
+          MCP:
+            _EnableConstrain: 0
+            ValueMin: 0
+            ValueMax: 1
+          PIP:
+            _EnableConstrain: 0
+            ValueMin: 0
+            ValueMax: 1
+          DIP:
+            _EnableConstrain: 0
+            ValueMin: 0
+            ValueMax: 1
+  _OnConstrainEnter:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: Dexmo.Unity.Interaction.ConstraintUnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  _OnConstrainStay:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: Dexmo.Unity.Interaction.ConstraintUnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  _OnConstrainExit:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: Dexmo.Unity.Interaction.ConstraintUnityEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &114328715074664648
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1374925755915974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a72eb2550d3165142987ff1beff27814, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RotateTarget: {fileID: 4199325241962194}
+  RotateReference: {fileID: 4021868963491148}
+  rotateAxis: {x: 0, y: 1, z: 0}
+  zeroDirection: {x: 0, y: 0, z: 1}
+  isLimitAngle: 0
+  limitData:
+    minAngle: 0
+    maxAngle: 180
+--- !u!135 &135415308411166678
+SphereCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1210715092389972}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.6
+  m_Center: {x: -0.000000059604645, y: 0.0000019073486, z: -0.00000008940697}

@@ -1,0 +1,244 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 188697617, guid: 9493066750f2c1549baccac61aae669a, type: 3}
+  m_Name: InteractionDatabase
+  m_EditorClassIdentifier: 
+  gestureDatas:
+    Gestures:
+    - GestureName: Release
+      thumb:
+        Bend:
+          _MCP:
+            ValueMin: 0
+            ValueMax: 0.2
+            LastChangeValue: 0
+        Split:
+          ValueMin: 0
+          ValueMax: 0
+          LastChangeValue: 0
+        Rotate:
+          ValueMin: 0
+          ValueMax: 0
+          LastChangeValue: 0
+        enableSplitAxis: 0
+      index:
+        Bend:
+          _MCP:
+            ValueMin: 0
+            ValueMax: 0.2
+            LastChangeValue: 0
+        Split:
+          ValueMin: 0
+          ValueMax: 0
+          LastChangeValue: 0
+        Rotate:
+          ValueMin: 0
+          ValueMax: 0
+          LastChangeValue: 0
+        enableSplitAxis: 0
+      middle:
+        Bend:
+          _MCP:
+            ValueMin: 0
+            ValueMax: 0.2
+            LastChangeValue: 0
+        Split:
+          ValueMin: 0
+          ValueMax: 0
+          LastChangeValue: 0
+        Rotate:
+          ValueMin: 0
+          ValueMax: 0
+          LastChangeValue: 0
+        enableSplitAxis: 0
+      ring:
+        Bend:
+          _MCP:
+            ValueMin: 0
+            ValueMax: 0.2
+            LastChangeValue: 0
+        Split:
+          ValueMin: 0
+          ValueMax: 0
+          LastChangeValue: 0
+        Rotate:
+          ValueMin: 0
+          ValueMax: 0
+          LastChangeValue: 0
+        enableSplitAxis: 0
+      pinky:
+        Bend:
+          _MCP:
+            ValueMin: 0
+            ValueMax: 0.2
+            LastChangeValue: 0
+        Split:
+          ValueMin: 0
+          ValueMax: 0
+          LastChangeValue: 0
+        Rotate:
+          ValueMin: 0
+          ValueMax: 0
+          LastChangeValue: 0
+        enableSplitAxis: 0
+    - GestureName: SprideMan
+      thumb:
+        Bend:
+          _MCP:
+            ValueMin: 0
+            ValueMax: 0.4
+            LastChangeValue: 0
+        Split:
+          ValueMin: 0
+          ValueMax: 0
+          LastChangeValue: 0
+        Rotate:
+          ValueMin: 0
+          ValueMax: 0
+          LastChangeValue: 0
+        enableSplitAxis: 0
+      index:
+        Bend:
+          _MCP:
+            ValueMin: 0
+            ValueMax: 0.3
+            LastChangeValue: 0
+        Split:
+          ValueMin: 0
+          ValueMax: 0
+          LastChangeValue: 0
+        Rotate:
+          ValueMin: 0
+          ValueMax: 0
+          LastChangeValue: 0
+        enableSplitAxis: 0
+      middle:
+        Bend:
+          _MCP:
+            ValueMin: 0.7
+            ValueMax: 1
+            LastChangeValue: 0
+        Split:
+          ValueMin: 0
+          ValueMax: 0
+          LastChangeValue: 0
+        Rotate:
+          ValueMin: 0
+          ValueMax: 0
+          LastChangeValue: 0
+        enableSplitAxis: 0
+      ring:
+        Bend:
+          _MCP:
+            ValueMin: 0.7
+            ValueMax: 1
+            LastChangeValue: 0
+        Split:
+          ValueMin: 0
+          ValueMax: 0
+          LastChangeValue: 0
+        Rotate:
+          ValueMin: 0
+          ValueMax: 0
+          LastChangeValue: 0
+        enableSplitAxis: 0
+      pinky:
+        Bend:
+          _MCP:
+            ValueMin: 0
+            ValueMax: 0.3
+            LastChangeValue: 0
+        Split:
+          ValueMin: 0
+          ValueMax: 0
+          LastChangeValue: 0
+        Rotate:
+          ValueMin: 0
+          ValueMax: 0
+          LastChangeValue: 0
+        enableSplitAxis: 0
+    - GestureName: GestureName
+      thumb:
+        Bend:
+          _MCP:
+            ValueMin: 0
+            ValueMax: 0
+            LastChangeValue: 0
+        Split:
+          ValueMin: 0
+          ValueMax: 0
+          LastChangeValue: 0
+        Rotate:
+          ValueMin: 0
+          ValueMax: 0
+          LastChangeValue: 0
+        enableSplitAxis: 1
+      index:
+        Bend:
+          _MCP:
+            ValueMin: 0
+            ValueMax: 0
+            LastChangeValue: 0
+        Split:
+          ValueMin: 0
+          ValueMax: 0
+          LastChangeValue: 0
+        Rotate:
+          ValueMin: 0
+          ValueMax: 0
+          LastChangeValue: 0
+        enableSplitAxis: 0
+      middle:
+        Bend:
+          _MCP:
+            ValueMin: 0
+            ValueMax: 0
+            LastChangeValue: 0
+        Split:
+          ValueMin: 0
+          ValueMax: 0
+          LastChangeValue: 0
+        Rotate:
+          ValueMin: 0
+          ValueMax: 0
+          LastChangeValue: 0
+        enableSplitAxis: 0
+      ring:
+        Bend:
+          _MCP:
+            ValueMin: 0
+            ValueMax: 0
+            LastChangeValue: 0
+        Split:
+          ValueMin: 0
+          ValueMax: 0
+          LastChangeValue: 0
+        Rotate:
+          ValueMin: 0
+          ValueMax: 0
+          LastChangeValue: 0
+        enableSplitAxis: 0
+      pinky:
+        Bend:
+          _MCP:
+            ValueMin: 0
+            ValueMax: 0
+            LastChangeValue: 0
+        Split:
+          ValueMin: 0
+          ValueMax: 0
+          LastChangeValue: 0
+        Rotate:
+          ValueMin: 0
+          ValueMax: 0
+          LastChangeValue: 0
+        enableSplitAxis: 0

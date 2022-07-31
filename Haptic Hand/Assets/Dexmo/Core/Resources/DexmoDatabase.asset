@@ -1,0 +1,272 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1142413063, guid: 6c6394bdfebf4bd409abf738d5f1e15c, type: 3}
+  m_Name: DexmoDatabase
+  m_EditorClassIdentifier: 
+  handProfiles:
+    handProfile_L:
+      THUMB:
+        MCP:
+          InitialConfigRotation: {x: 0, y: 0.043619405, z: 0, w: 0.9990483}
+          BendAngleExtreme: 50
+          BendAxis: {x: 0, y: 0, z: -1}
+          TuringPoint: 0.7
+          TuringValue: 0.8
+        PIP:
+          InitialConfigRotation: {x: 0, y: 0, z: -0.043619405, w: 0.9990483}
+          BendAngleExtreme: 45
+          BendAxis: {x: 1, y: 0, z: 0}
+          TuringPoint: 0.9
+          TuringValue: 0.9
+        DIP:
+          InitialConfigRotation: {x: -0.0435959, y: 0, z: 0, w: 0.99904925}
+          BendAngleExtreme: 65
+          BendAxis: {x: 1, y: 0, z: 0}
+          TuringPoint: 0
+          TuringValue: 0
+        Split:
+          SplitAngleExtreme: 50
+          SplitAxis: {x: 0, y: 1, z: 0}
+        Rotate:
+          RotateAngleExtreme: 85
+          RotateAxis: {x: 1, y: 0, z: 0}
+        Setting:
+          BendValueForPIPAndDIP: 0.4
+          PIPSplitAxis: {x: 0, y: 1, z: 0}
+          MCPSplitModifier: 0.5
+      INDEX:
+        MCP:
+          InitialConfigRotation: {x: 0, y: 0.2164396, z: 0, w: 0.9762961}
+          BendAngleExtreme: 80
+          BendAxis: {x: 1, y: 0, z: 0}
+          TuringPoint: 0.7
+          TuringValue: 0.8
+        PIP:
+          InitialConfigRotation: {x: 0, y: 0, z: 0, w: 1}
+          BendAngleExtreme: 110
+          BendAxis: {x: 1, y: 0, z: 0}
+          TuringPoint: 0.9
+          TuringValue: 0.45
+        DIP:
+          InitialConfigRotation: {x: 0, y: 0, z: 0, w: 1}
+          BendAngleExtreme: 50
+          BendAxis: {x: 1, y: 0, z: 0}
+          TuringPoint: 0
+          TuringValue: 0
+        Split:
+          SplitAngleExtreme: -30
+          SplitAxis: {x: 0, y: 1, z: 0}
+      MIDDLE:
+        MCP:
+          InitialConfigRotation: {x: 0, y: 0, z: 0, w: 1}
+          BendAngleExtreme: 95
+          BendAxis: {x: 1, y: 0, z: 0}
+          TuringPoint: 0.7
+          TuringValue: 0.8
+        PIP:
+          InitialConfigRotation: {x: 0, y: 0, z: 0, w: 1}
+          BendAngleExtreme: 125
+          BendAxis: {x: 1, y: 0, z: 0}
+          TuringPoint: 0.9
+          TuringValue: 0.45
+        DIP:
+          InitialConfigRotation: {x: 0, y: 0, z: 0, w: 1}
+          BendAngleExtreme: 50
+          BendAxis: {x: 1, y: 0, z: 0}
+          TuringPoint: 0
+          TuringValue: 0
+        Split:
+          SplitAngleExtreme: -10
+          SplitAxis: {x: 0, y: 1, z: 0}
+      RING:
+        MCP:
+          InitialConfigRotation: {x: 0, y: 0, z: 0, w: 1}
+          BendAngleExtreme: 95
+          BendAxis: {x: 1, y: 0, z: 0}
+          TuringPoint: 0.7
+          TuringValue: 0.8
+        PIP:
+          InitialConfigRotation: {x: 0, y: 0, z: 0, w: 1}
+          BendAngleExtreme: 125
+          BendAxis: {x: 1, y: 0, z: 0}
+          TuringPoint: 0.9
+          TuringValue: 0.45
+        DIP:
+          InitialConfigRotation: {x: 0, y: 0, z: 0, w: 1}
+          BendAngleExtreme: 50
+          BendAxis: {x: 1, y: 0, z: 0}
+          TuringPoint: 0
+          TuringValue: 0
+        Split:
+          SplitAngleExtreme: -20
+          SplitAxis: {x: 0, y: 1, z: 0}
+      PINKY:
+        MCP:
+          InitialConfigRotation: {x: 0, y: 0, z: 0, w: 1}
+          BendAngleExtreme: 80
+          BendAxis: {x: 1, y: 0, z: 0}
+          TuringPoint: 0.7
+          TuringValue: 0.8
+        PIP:
+          InitialConfigRotation: {x: 0, y: 0, z: 0, w: 1}
+          BendAngleExtreme: 110
+          BendAxis: {x: 1, y: 0, z: 0}
+          TuringPoint: 0.9
+          TuringValue: 0.45
+        DIP:
+          InitialConfigRotation: {x: 0, y: 0, z: 0, w: 1}
+          BendAngleExtreme: 50
+          BendAxis: {x: 1, y: 0, z: 0}
+          TuringPoint: 0
+          TuringValue: 0
+        Split:
+          SplitAngleExtreme: -35
+          SplitAxis: {x: 0, y: 1, z: 0}
+    handProfile_R:
+      THUMB:
+        MCP:
+          InitialConfigRotation: {x: 0, y: 0.043619405, z: 0, w: 0.9990483}
+          BendAngleExtreme: 50
+          BendAxis: {x: -0, y: -0, z: 1}
+          TuringPoint: 0.7
+          TuringValue: 0.8
+        PIP:
+          InitialConfigRotation: {x: 0, y: 0, z: 0.043619405, w: 0.9990483}
+          BendAngleExtreme: 45
+          BendAxis: {x: 1, y: 0, z: 0}
+          TuringPoint: 0.9
+          TuringValue: 0.9
+        DIP:
+          InitialConfigRotation: {x: -0.0435959, y: 0, z: 0, w: 0.99904925}
+          BendAngleExtreme: 65
+          BendAxis: {x: 1, y: 0, z: 0}
+          TuringPoint: 0
+          TuringValue: 0
+        Split:
+          SplitAngleExtreme: 50
+          SplitAxis: {x: -0, y: -1, z: -0}
+        Rotate:
+          RotateAngleExtreme: 85
+          RotateAxis: {x: 1, y: 0, z: 0}
+        Setting:
+          BendValueForPIPAndDIP: 0.4
+          PIPSplitAxis: {x: 0, y: 1, z: 0}
+          MCPSplitModifier: 0.5
+      INDEX:
+        MCP:
+          InitialConfigRotation: {x: 0, y: -0.2164396, z: 0, w: 0.9762961}
+          BendAngleExtreme: 80
+          BendAxis: {x: 1, y: 0, z: 0}
+          TuringPoint: 0.7
+          TuringValue: 0.8
+        PIP:
+          InitialConfigRotation: {x: 0, y: 0, z: 0, w: 1}
+          BendAngleExtreme: 110
+          BendAxis: {x: 1, y: 0, z: 0}
+          TuringPoint: 0.9
+          TuringValue: 0.45
+        DIP:
+          InitialConfigRotation: {x: 0, y: 0, z: 0, w: 1}
+          BendAngleExtreme: 50
+          BendAxis: {x: 1, y: 0, z: 0}
+          TuringPoint: 0
+          TuringValue: 0
+        Split:
+          SplitAngleExtreme: -30
+          SplitAxis: {x: -0, y: -1, z: -0}
+      MIDDLE:
+        MCP:
+          InitialConfigRotation: {x: 0, y: 0, z: 0, w: 1}
+          BendAngleExtreme: 95
+          BendAxis: {x: 1, y: 0, z: 0}
+          TuringPoint: 0.7
+          TuringValue: 0.8
+        PIP:
+          InitialConfigRotation: {x: 0, y: 0, z: 0, w: 1}
+          BendAngleExtreme: 125
+          BendAxis: {x: 1, y: 0, z: 0}
+          TuringPoint: 0.9
+          TuringValue: 0.45
+        DIP:
+          InitialConfigRotation: {x: 0, y: 0, z: 0, w: 1}
+          BendAngleExtreme: 50
+          BendAxis: {x: 1, y: 0, z: 0}
+          TuringPoint: 0
+          TuringValue: 0
+        Split:
+          SplitAngleExtreme: -10
+          SplitAxis: {x: -0, y: -1, z: -0}
+      RING:
+        MCP:
+          InitialConfigRotation: {x: 0, y: 0, z: 0, w: 1}
+          BendAngleExtreme: 95
+          BendAxis: {x: 1, y: 0, z: 0}
+          TuringPoint: 0.7
+          TuringValue: 0.8
+        PIP:
+          InitialConfigRotation: {x: 0, y: 0, z: 0, w: 1}
+          BendAngleExtreme: 125
+          BendAxis: {x: 1, y: 0, z: 0}
+          TuringPoint: 0.9
+          TuringValue: 0.45
+        DIP:
+          InitialConfigRotation: {x: 0, y: 0, z: 0, w: 1}
+          BendAngleExtreme: 50
+          BendAxis: {x: 1, y: 0, z: 0}
+          TuringPoint: 0
+          TuringValue: 0
+        Split:
+          SplitAngleExtreme: -20
+          SplitAxis: {x: -0, y: -1, z: -0}
+      PINKY:
+        MCP:
+          InitialConfigRotation: {x: 0, y: 0, z: 0, w: 1}
+          BendAngleExtreme: 80
+          BendAxis: {x: 1, y: 0, z: 0}
+          TuringPoint: 0.7
+          TuringValue: 0.8
+        PIP:
+          InitialConfigRotation: {x: 0, y: 0, z: 0, w: 1}
+          BendAngleExtreme: 110
+          BendAxis: {x: 1, y: 0, z: 0}
+          TuringPoint: 0.9
+          TuringValue: 0.45
+        DIP:
+          InitialConfigRotation: {x: 0, y: 0, z: 0, w: 1}
+          BendAngleExtreme: 50
+          BendAxis: {x: 1, y: 0, z: 0}
+          TuringPoint: 0
+          TuringValue: 0
+        Split:
+          SplitAngleExtreme: -35
+          SplitAxis: {x: -0, y: -1, z: -0}
+  vrOffsetDatas:
+    HTCVive_Tracker:
+      OffsetData_L:
+        Position: {x: -0.012225, y: -0.042887, z: -0.052926}
+        Rotation: {x: 78.82487, y: 108.0498, z: 332.5782}
+      OffsetData_R:
+        Position: {x: 0.015135, y: -0.047512, z: -0.047377}
+        Rotation: {x: 82.55139, y: 291.8876, z: 66.09898}
+    HTCVive_Controller:
+      OffsetData_L:
+        Position: {x: 0.05971161, y: 0.05348502, z: -0.05918491}
+        Rotation: {x: -4.844, y: 84.479, z: 85.011}
+      OffsetData_R:
+        Position: {x: -0.0494664, y: 0.05897517, z: -0.06265435}
+        Rotation: {x: -10.659, y: -88.039, z: -85.415}
+    Oculus:
+      OffsetData_L:
+        Position: {x: 0.053, y: -0.08, z: -0.01}
+        Rotation: {x: 45.906, y: 0, z: 0}
+      OffsetData_R:
+        Position: {x: -0.0404, y: -0.0713, z: 0.00625}
+        Rotation: {x: 30.897, y: 0, z: 0}
